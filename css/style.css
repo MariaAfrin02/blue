@@ -1,0 +1,253 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	background-color: #121B2A;
+	padding: 10px 0;
+	
+}
+.wrapper{
+	/*border: 5px solid green;*/
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width:15% ;
+	/*border: 1px solid white;*/
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	/*border: 1px solid white;*/
+	float: right;
+	margin-top: 25px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+list-style: none;
+float: left;
+}
+.menu ul li a{ 
+	display: block;
+text-decoration: none; 
+padding: 5px 15px;
+color: white;
+transition: 0.5s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+color: #0078BD;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../images/blue3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.banner-content{
+	margin-top: 200px;
+	margin-bottom: 50px;
+	width: 45%;
+}
+.banner-content p:first-child{
+	color: white;
+	font-size: 28px;
+	font-family: sans-serif;
+}
+.banner-content h1{
+	color: #0078BD;
+	font-size: 35px;
+	font-family: sans-serif;
+}
+.banner-content p:nth-last-child(2){
+	color:white;
+	font-size: 17px;
+	line-height: 1.5;
+	font-family: sans-serif;
+}
+.banner-content button{
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: #5A5A5A;
+	font-size: 18px;
+	margin-top: 20px;
+	background-color: white;
+}
+.banner-content button span{
+	background-color: blue;
+	padding: 2px 8px;
+	border-radius: 50%;
+	color: white;
+	margin-left: 10px;
+}
+/*banner end*/
+/*service start*/
+.service{
+	background-color: #121B2C;
+	padding: 50px 0;
+}
+.single{
+	/*border: 2px solid white;*/
+	width: 28%;
+	padding: 10px 20px;
+	float: left;
+	border-right: 1px solid gray;
+	margin-left: 5px;
+
+}
+.single:last-child{
+	border-right: 0;
+}
+.title{
+	overflow: hidden;
+	/*border: 1px solid green;*/
+	margin-bottom: 5px;
+}
+.icon{
+	width: 25%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.icon img{
+	width: 100%;
+}
+.icon-content{
+	width: 70%;
+	/*border: 1px solid red;*/
+	float: left;
+	margin-top: 7px;
+}
+.icon-content h1{
+	color: white;
+	text-transform: capitalize;
+	font-family: sans-serif ;
+	font-size:20px ;
+	font-weight: normal;
+	/*padding-top: 20px;*/
+}
+.icon-content h2{
+	color: #0078BD;
+	text-transform: capitalize;
+	font-family: sans-serif;
+	font-size: 23px;
+	font-weight: bold;
+}
+.content{}
+.content p{
+	color: white;
+	font-family: sans-serif;
+	line-height: 1.6;
+	font-size: 17px;
+}
+/*service end*/
+/*feature start*/
+.feature{
+	background-color: #040811;
+	padding: 50px 0;
+}
+.single_feature{
+	/*border: 2px solid white;*/
+	width: 28%;
+	padding: 10px 20px;
+	/*border-right: 1px solid white;*/
+	margin-left: 5px;
+	float: left;
+	overflow: hidden;
+}
+.f_img img{width: 100%;}
+.single_feature h2{
+	color: white;
+	text-transform: capitalize;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	padding: 15px 0;
+}
+.single_feature h2 span{
+	color:#0078BD;
+	text-transform: capitalize;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 15px 0;
+}
+.single_feature p{
+	color: white;
+	font-family: sans-serif;
+	font-size: 13px;
+	padding-bottom: 5px;
+}
+.p1{
+	color: white;
+	font-family: sans-serif;
+	line-height: 1.5;
+	font-size: 13px;
+	padding-top:20px ;
+}
+
+
+/*feature end*/
+/*footer start*/
+footer{
+	background-color: #121b2c;
+	padding: 10px 0;
+	
+}
+.wrapper{
+	/*border: 5px solid green;*/
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.f-logo{
+	width: 45% ;
+	/*border: 1px solid white;*/
+	float: right;
+	margin-top: 25px;
+}
+.f-logo img{
+	width: 100%;
+}
+.f-menu{
+	width: 50%;
+	/*border: 1px solid white;*/
+	float: left;
+	margin-top: 25px;
+}
+.f-menu ul{
+	float: right;
+}
+.f-menu ul li{
+list-style: none;
+float: left;
+color: white;
+text-transform: capitalize;
+font-size: 13px;
+line-height: 30px;
+
+}
+.f-menu ul li a{ 
+display: block;
+text-decoration: none; 
+padding: 5px 15px;
+color: white;
+font-size: 12px;
+
+}
+.f-menu ul li span{
+	color: blue;
+}
+/*footer end*/
